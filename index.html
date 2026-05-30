@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-container">
+        <div class="audio-controls">
+            <button id="music-toggle" class="music-btn">🎵 Play Music</button>
+            <audio id="bg-music" loop>
+                <source src="cant-help-falling-in-love.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="book-container">
+            <div id="book" class="book">
+                <!-- Cover -->
+                <div class="page cover-page" id="p1">
+                    <div class="front">
+                        <div class="cover-content">
+                            <h1>Our Story</h1>
+                            <div class="decoration">❦</div>
+                            <p>A Journey of Love</p>
+                            <span class="click-hint">Click to Open</span>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="page-content">
+                            <h2>To My Dearest</h2>
+                            <p>This book is a small token of my love for you. Every page holds a piece of my heart and a memory of us.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pages 1-2 (Love Letter) -->
+                <div class="page" id="p2">
+                    <div class="front">
+                        <div class="page-content">
+                            <h3>My Dearest Love,</h3>
+                            <p>Writing this letter feels like trying to capture the ocean in a bottle. There are so many things I want to say, so many feelings that words sometimes fail to express.</p>
+                            <p>From the moment you walked into my life, everything changed. You brought a light that I didn't know I was missing, and a warmth that has made every day since then more beautiful than the last.</p>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="page-content">
+                            <p>I love the way you laugh, the way you look at me, and the way you make me feel like I'm the most important person in the world. You are my partner, my best friend, and my soulmate.</p>
+                            <p>I promise to always be there for you, to support you, and to love you with everything I have. Thank you for being you, and for choosing to share your life with me.</p>
+                            <p class="signature">Forever Yours,</p>
+                            <p class="signature1">SC</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pages 3-4 (Photos & Memories) -->
+                <div class="page" id="p3">
+                    <div class="front">
+                        <div class="page-content">
+                            <h3>Cherished Moments</h3>
+                            <div class="photo-placeholder">
+                                <img src="pic1.jpg" alt="Our First Date" class="page-img">
+                            </div>
+                            <p class="caption">Where it all began...</p>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="page-content">
+                            <div class="photo-placeholder">
+                                <img src="pic2.jpg" alt="Our Favorite Memory" class="page-img">
+                            </div>
+                            <p class="caption">I'll never forget this day.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pages 5-6 (Reasons I Love You) -->
+                <div class="page" id="p4">
+                    <div class="front">
+                        <div class="page-content">
+                            <h3>Reasons I Love You</h3>
+                            <ul class="reasons-list">
+                                <li>The way your eyes sparkle when you're happy.</li>
+                                <li>Your kindness towards everyone you meet.</li>
+                                <li>How you always know exactly how to cheer me up.</li>
+                                <li>The way you challenge me to be a better person.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="page-content">
+                            <ul class="reasons-list">
+                                <li>Your incredible strength and resilience.</li>
+                                <li>The way you make even the simplest moments feel special.</li>
+                                <li>Your sense of humor and your beautiful smile.</li>
+                                <li>Simply because you are YOU.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pages 7-8 (Quotes & Inside Jokes) -->
+                <div class="page" id="p5">
+                    <div class="front">
+                        <div class="page-content">
+                            <h3>Our Little Secrets</h3>
+                            <div class="quote-box">
+                                <p class="quote">"I love you not only for what you are, but for what I am when I am with you."</p>
+                            </div>
+                            <p class="joke">Remember that time when we are both drunk? 🍦</p>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="page-content">
+                            <div class="quote-box">
+                                <p class="quote">"Whatever our souls are made of, hers and mine are the same."</p>
+                            </div>
+                            <p class="joke">"Cherry" 🍒 (IYKYK)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pages 9-10 (Future Dreams) -->
+                <div class="page" id="p6">
+                    <div class="front">
+                        <div class="page-content">
+                            <h3>Our Future Dreams</h3>
+                            <p>I can't wait for all the adventures we haven't had yet.</p>
+                            <ul class="reasons-list">
+                                <li>Traveling the world together.</li>
+                                <li>Building a home filled with laughter.</li>
+                                <li>Growing old and grey by your side.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="page-content">
+                            <p>Every dream I have for the future features you right there in the center of it. I'm so excited for everything that's to come.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pages 11-12 (A Heartfelt Promise) -->
+                <div class="page" id="p7">
+                    <div class="front">
+                        <div class="page-content">
+                            <h3>A Promise to You</h3>
+                            <p>I promise to be your biggest fan, your strongest supporter, and your most faithful partner.</p>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="page-content">
+                            <p>Through every high and every low, I will be right here, holding your hand. My love for you only grows with every passing day.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pages 13-14 (A Special Message) -->
+                <div class="page" id="p8">
+                    <div class="front">
+                        <div class="page-content">
+                            <h3>A Message from My Heart</h3>
+                            <p>I love you so much, and you mean everything to me. Even when we fight or get upset with each other, that love never changes.</p>
+                            <p>We are together in this, we aren't enemies, we're allies. When we're fighting, let's let one another talk first and really listen to each other so no misunderstanding will happen. We can talk through anything.</p>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="page-content">
+                            <p>But it breaks my heart completely when you hurt yourself, and I absolutely hate it pag nagwawala ka, when you pull away or shut me out. It scares me because I just want to know you're safe.</p>
+                            <p>We can argue and we can work through things, but please stay with me and don't do that to yourself. We can fix anything together. I’m here for you, always.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pages 15-16 (Partner & Ally) -->
+                <div class="page" id="p9">
+                    <div class="front">
+                        <div class="page-content">
+                            <h3>My Partner & Ally</h3>
+                            <p>In everything we face, I want you to know that I am your partner. No matter the challenge, I am by your side.</p>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="page-content">
+                            <p>I will support you and help you through every step of our journey. I am your ally in everything we do.</p>
+                            <p>You are my partner in life, and I am yours, forever and always.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Back Cover -->
+                <div class="page back-page" id="p10">
+                    <div class="front">
+                        <div class="page-content">
+                            <p>And so the story continues...</p>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="cover-content">
+                            <div class="decoration">❦</div>
+                            <h2>I Love You</h2>
+                            <p>To the moon and back.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
